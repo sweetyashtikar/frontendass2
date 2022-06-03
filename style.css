@@ -1,0 +1,259 @@
+body{
+  margin: 0px;
+  font-family: roboto;
+}
+body a{
+  text-decoration: none;
+}
+/*home page header logo section start*/
+.home_header{
+  background: #293f50;
+  padding: 30px 200px 50px 270px;
+}
+.logo_menu .logo{
+  width: 50%;
+  float: left;
+}
+.home_header .logo_menu .logo h1{
+  margin: 0px;
+}
+.home_header .logo_menu .logo h1 a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 48px;
+  letter-spacing: 4px;
+  }
+.home_header .logo_menu .logo h1 a:hover{
+  color: #648880;
+}
+.home_header .logo_menu .menu nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.home_header .logo_menu .menu nav ul li a:hover{
+  color: #648880;
+}
+.home_header .menu{
+  padding-top: 40px;
+}
+.menu span{
+  text-align: right;
+  display: block;
+  text-align: right;
+  margin-right: 88px;
+  color: #648880;
+  font-size: 20px;
+  font-weight: 300;
+}
+.menu nav ul{
+  list-style: none;
+}
+.menu nav ul li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+/*home page header menu section design starts here*/
+.header_desc{
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header_desc h2{
+  color: #648880;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.header_desc p{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 45px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.header_desc a{
+  text-decoration:  none;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  margin-top: 2;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+}
+.header_desc a:hover{
+  background: #fff;
+  color: #648880;
+}
+
+
+
+/*home page header 3 colume section design starts here*/
+.three_section img{
+  width: 280px;
+  height: 190px;
+  border-radius: 5px;
+}
+.speaker, .schedule, .venue{
+  padding: 20px 185px 50px 300px;
+}
+.three_section h3{
+  color: #648880;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.three_section h4{
+opacity: .5;
+font-weight: 500;
+font-size: 14px;
+}
+.three_section p{
+  opacity: .5;
+  font-weight: 300;
+  padding-right:40px ;
+}
+.footer{
+  clear: both;
+  background: #293f50;
+  text-align: center;
+  padding: 18px;
+}
+.footer p{
+  font-size: 20px;
+  color: #648880;
+}
+
+
+
+
+
+
+
+
+/*all page decrripation*/
+
+#speaker_header{
+  background: linear-gradient(to right, #a3d4b1, #f3f0d2) ;
+  padding: 33px 200px 0px 200px;
+}
+#speaker_header p{
+  color: #888;
+}
+#header1{
+  padding: 30px 200px 30px 270px;
+}
+/*authordetails*/
+.author_details{
+  padding: 20px 300px;
+}
+
+.author_details .author_info{
+  width: 65%;
+  float: left;
+}
+.author_details .author_img{
+width: 30%;
+float: left;
+text-align: center;
+border: 1px solid #ddd;
+border-radius: 5px;
+margin-top: 110px;
+margin-left: 20px;
+}
+
+.author_details .author_img img{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin-top: -40px;
+}
+
+.author_details .author_img ul li a{
+  color: #000;
+  opacity: .5;
+}
+.author_details .author_img ul li:hover{
+  opacity: .5;
+}
+.author_details .author_img ul{
+  list-style: none;
+}
+.author_details .author_info h2{
+  color: #648880;
+  font-weight: 400;
+}
+.author_details .author_info p{
+  color: #888;
+}
+.author_details .author_info h5{
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+.author_details .author_info p a{
+  color: #a9b2b9;
+}
+.author_details a:hover{
+  opacity: .5;
+}
+/*venue page*/
+.venue_descripation{
+  background: linear-gradient(to right, #a3d4b1, #f3f0d2);
+  padding: 20px 250px 20px 320px;
+  text-align: center;
+  font-size: 21px;
+}
+.venue_descripation p{
+  color: #888;
+  display: block;
+}
+.venue_descripation h2{
+  color: #648880;
+  font-size: 35px;
+  font-weight: 400;
+}
+/*venue details*/
+p{}
+
+.adr_map{
+  padding: 50px 300px 50px 300px;
+}
+.adr_map .adr{
+  float: left;
+  width: 30%;
+}
+.adr_map .map{
+  width: 65%;
+  float: left;
+}
+.adr_map .map .map1{
+  width: 100%;
+  height: 260px;
+  padding-bottom: 50px;
+}
+.adr_map h2{
+  color: #648880;
+  font-weight: 400;
+}
+.adr_map p{
+  max-width: 0px;
+  opacity: .5;
+  font-size: 17px;
+}
+.adr_map p a{
+  color: #648880;
+  text-decoration: underline 1px;
+}
+.adr_map p a:hover{
+  opacity: .5;
+}
